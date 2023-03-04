@@ -2,17 +2,27 @@
     display:grid;
     justify-content: center;
 }
+h3{
+    text-align: center;
+    background-color: rgb(150, 150, 220);
+    border-radius: 15px;
+}
 #steamTracker{
     height:300px;
     width:500px;
-    border:solid red 2px;
+    border:solid green 2px;
 }
 #Blog{
     height:300px;
     width:500px;
-    border:solid red 2px;
+    border:solid green 2px;
 }
 #RegEx{
+    height:300px;
+    width:500px;
+    border:solid green 2px;
+}
+#WIP{
     height:300px;
     width:500px;
     border:solid red 2px;

@@ -30,11 +30,11 @@
 }
 #myBio{
     padding:15px;
-    background-color: cyan;
+    background-color: rgb(150, 150, 220);
 }
 #personal{
     padding:15px;
-    background-color: cyan;
+    background-color: rgb(150, 150, 220);
 }
 #Portfolio{
     text-align: center;
@@ -48,6 +48,8 @@
 }
 #foot{
     text-align: center;
+    margin:0;
+    bottom:0;
     background-color: cyan;
 }
 #foot h3{

@@ -1,0 +1,23 @@
+#resume{
+    text-align: center;
+}
+#bootcamp{
+    background-color: rgb(150, 150, 220);
+}
+#dates{
+    background-color: rgb(150, 150, 220);
+}
+#GP{
+    background-color: rgb(150, 150, 220);
+}
+ li{
+    list-style: none;
+    background-color: darkcyan;
+}
+ul{
+    border-radius: 15px;
+    background-color: darkcyan;
+}
+#Skills{
+    background-color: rgb(150, 150, 220);
+}

@@ -15,7 +15,7 @@ function App() {
         <a href="#aboutMe">About Me</a>
         <a href="#Portfolio">Portfolio</a>
         <a href="#foot">Contact</a>
-        <a>Resume</a>
+        <a href="#Resume">Resume</a>
        </nav>
       </header>
        <img id="me" src={me}></img>
@@ -32,10 +32,12 @@ function App() {
       </section>
       <footer id="foot">
         <h3>Contact Me</h3>
-        <a href="https://www.linkedin.com/in/kai-ropp-7476a1267/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/kairo97" target="_blank" rel="noreferrer">
       <img id="Git"src={github}></img>
         </a>
+        <a href="mailto:kai.ropp@gmail.com" target="_blank" rel="noreferrer">
       <img id="Gmail" src={gmail}></img>
+        </a>
       <a href="https://www.linkedin.com/in/kai-ropp-7476a1267/" target="_blank" rel="noreferrer">
       <img id="In" src={LinkedIn}></img>
       </a>
