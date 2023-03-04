@@ -1,4 +1,7 @@
-
+#portfolio{
+    display:grid;
+    justify-content: center;
+}
 #steamTracker{
     height:300px;
     width:500px;

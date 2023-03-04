@@ -1,0 +1,79 @@
+
+#topHeader{
+    background-color: cyan;
+    margin:0;
+    border-radius: 15px;;
+}
+#kai{
+    background-color: cyan;
+    text-align: center;
+}
+#me{
+    height:100px;
+    width:80px;
+    border-radius: 100px;
+}
+#navBar{
+    background-color: cyan;
+    display: flex;
+    justify-content:space-between ;
+}
+#navBar a{
+    background-color: cyan;
+    justify-content: space-around;
+}
+
+#aboutMe{
+    text-align: center;
+    background-color: cyan;
+    border-radius: 15px;;
+}
+#myBio{
+    padding:15px;
+    background-color: cyan;
+}
+#personal{
+    padding:15px;
+    background-color: cyan;
+}
+#Portfolio{
+    text-align: center;
+    background-color: cyan;
+    border-radius: 15px;
+}
+#Resume{
+    text-align: center;
+    background-color: cyan;
+    border-radius: 15px;
+}
+#foot{
+    text-align: center;
+    background-color: cyan;
+}
+#foot h3{
+    background-color: cyan;
+}
+#foot a{
+    background-color: cyan;
+}
+#Git{
+    height:180px;
+    width:180px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: cyan;
+}
+#Gmail{
+    height:180px;
+    width:180px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: cyan;
+}
+#In{
+    height:180px;
+    width:180px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: cyan;
+}
