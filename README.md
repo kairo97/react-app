@@ -25,5 +25,6 @@
 ## Features
         React, CSS, Javascript
 
-        
-       <img width="1265" alt="Screenshot 2023-03-05 152324" src="https://user-images.githubusercontent.com/109006341/222991946-e74967a3-d6f4-4143-b7df-61672cfe75cd.png">
+## Screenshot        
+       
+<img width="1265" alt="Screenshot 2023-03-05 152324" src="https://user-images.githubusercontent.com/109006341/222991986-981ecb86-9e82-4dc0-a48d-b425c9c44fa8.png">
