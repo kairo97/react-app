@@ -10,7 +10,7 @@
  *features        
         
 ## Installation
-        none, just open the page in your broswer.
+        none, just open the page in your browser.
         
 ## Usage
         read the portfolio, click the links to projects, click the links to contact me, or leave your email for me. that's all
