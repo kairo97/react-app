@@ -1,26 +1,25 @@
-import React from "react"
+import React from "react";
+import "./Email.css"
+class Email extends React.Component {
+  handleform = (e) => {
+    const email = e.target.elements.email.value.trim();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert('Please enter a valid email address');
+      return;
+    }
+    alert(`Email submitted: ${email}`);
+  }
 
-function Email() {
+  render() {
     return (
-      <form id="emailForm">
-        <p>Leave your email for me</p>
-        <input type="text" placeholder="email" name="email"></input>
-        <button type="submit">Submit</button>    
+      <form id="emailForm" onSubmit={this.handleform}>
+        <p id="note">Leave your email for me</p>
+        <input id="email-input"type="text" placeholder="email" name="email"></input>
+        <button type="submit" id="submit">Submit</button>
       </form>
     );
   }
-  
-  
-  const handleFormSubmit = (e) => {
-      e.preventDefault();
-      const email = e.target.elements.email.value.trim();
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(email)) {
-          alert('Please enter a valid email address');
-          return;
-        }
-        
-    }
-    document.querySelector("#emailForm").addEventListener('submit', handleFormSubmit);
-  export default Email;
-  
+}
+
+export default Email;

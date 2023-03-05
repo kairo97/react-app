@@ -7,6 +7,7 @@
 #kai{
     background-color: cyan;
     text-align: center;
+    border-radius: 15px;
 }
 #me{
     height:100px;
@@ -17,6 +18,7 @@
     background-color: cyan;
     display: flex;
     justify-content:space-between ;
+    border-radius: 15px;;
 }
 #navBar a{
     background-color: cyan;
@@ -52,30 +54,16 @@
     bottom:0;
     background-color: cyan;
 }
-#foot h3{
+#foot, h3, a, p{
     background-color: cyan;
 }
-#foot a{
-    background-color: cyan;
-}
-#Git{
+#Git, #Gmail, #In{
     height:180px;
     width:180px;
     margin-left: 80px;
     margin-right: 80px;
     background-color: cyan;
 }
-#Gmail{
-    height:180px;
-    width:180px;
-    margin-left: 80px;
-    margin-right: 80px;
-    background-color: cyan;
-}
-#In{
-    height:180px;
-    width:180px;
-    margin-left: 80px;
-    margin-right: 80px;
+.imglink{
     background-color: cyan;
 }

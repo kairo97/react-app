@@ -34,13 +34,14 @@ function App() {
       <footer id="foot">
         <h3>Contact Me</h3>
         <Email/>
-        <a href="https://github.com/kairo97" target="_blank" rel="noreferrer">
+        <p>or find me at the links below</p>
+        <a class="imglink" href="https://github.com/kairo97" target="_blank" rel="noreferrer">
       <img id="Git"src={github}></img>
         </a>
-        <a href="mailto:kai.ropp@gmail.com" target="_blank" rel="noreferrer">
+        <a class="imglink"href="mailto:kai.ropp@gmail.com" target="_blank" rel="noreferrer">
       <img id="Gmail" src={gmail}></img>
         </a>
-      <a href="https://www.linkedin.com/in/kai-ropp-7476a1267/" target="_blank" rel="noreferrer">
+      <a class="imglink"href="https://www.linkedin.com/in/kai-ropp-7476a1267/" target="_blank" rel="noreferrer">
       <img id="In" src={LinkedIn}></img>
       </a>
       </footer>

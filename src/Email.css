@@ -1,0 +1,11 @@
+#emailForm, #note{
+    background-color: rgb(150, 150, 220);
+    border-radius:15px;
+}
+#email-input{
+    background-color: white;
+}
+#submit{
+    background-color: darkcyan;
+    border-radius: 5px;
+}

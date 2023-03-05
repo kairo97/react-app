@@ -1,29 +1,31 @@
 #portfolio{
     display:grid;
     justify-content: center;
+    
+}
+a{
+    background-color:rgb(90, 116, 138);
 }
 h3{
     text-align: center;
     background-color: rgb(150, 150, 220);
     border-radius: 15px;
 }
+#RegEx,
+#Blog,
 #steamTracker{
     height:300px;
     width:500px;
-    border:solid green 2px;
+    background-color: none;
 }
-#Blog{
-    height:300px;
-    width:500px;
-    border:solid green 2px;
+#steamTracker:hover, #Blog:hover, #RegEx:hover{
+border:solid green 8px;
 }
-#RegEx{
-    height:300px;
-    width:500px;
-    border:solid green 2px;
-}
+
 #WIP{
     height:300px;
     width:500px;
-    border:solid red 2px;
+}
+#WIP:hover{
+    border:dashed 10px red;
 }
