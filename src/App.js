@@ -4,6 +4,7 @@ import github from "./github-mark-white.png"
 import gmail from "./Gmail.png"
 import Portfolio from "./Portfolio"
 import Resume from "./Resume"
+import Email from "./Email"
 import LinkedIn from "./LI-In-Bug.png"
 import me from "./me.jpg"
 function App() {
@@ -32,6 +33,7 @@ function App() {
       </section>
       <footer id="foot">
         <h3>Contact Me</h3>
+        <Email/>
         <a href="https://github.com/kairo97" target="_blank" rel="noreferrer">
       <img id="Git"src={github}></img>
         </a>
