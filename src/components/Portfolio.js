@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Portfolio.css"
-import Steam from './Steam.png'
-import Blog from "./CodeBlog.png"
-import RegEx from "./RegEx.png"
-import WIP from "./WIP-image.png"
+import Steam from './images/Steam.png'
+import Blog from "./images/CodeBlog.png"
+import RegEx from "./images/RegEx.png"
+import WIP from "./images/WIP-image.png"
 function Portfolio() {
     return (
         <div id="portfolio">

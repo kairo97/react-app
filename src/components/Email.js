@@ -17,6 +17,7 @@ class Email extends React.Component {
         <p id="note">Leave your email for me</p>
         <input id="email-input"type="text" placeholder="email" name="email"></input>
         <button type="submit" id="submit">Submit</button>
+        <p id="click"> or click the links below</p>
       </form>
     );
   }
