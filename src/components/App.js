@@ -1,12 +1,12 @@
 import {useState} from "react"
 
 import './App.css';
-import github from "./images/github-mark-white.png"
-import gmail from "./images/Gmail.png"
+import github from "../images/github-mark-white.png"
+import gmail from "../images/Gmail.png"
 import Portfolio from "./Portfolio"
 import Resume from "./Resume"
 import Email from "./Email"
-import LinkedIn from "./images/LI-In-Bug.png"
+import LinkedIn from "../images/LI-In-Bug.png"
 import Me from "./Me"
 
 

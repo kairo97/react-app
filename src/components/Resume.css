@@ -18,6 +18,6 @@ ul{
     border-radius: 15px;
     background-color: darkcyan;
 }
-#Skills{
+#Skills, #download{
     background-color: rgb(150, 150, 220);
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import me from "./images/me.jpg"
+// import me from "./images/me.jpg"
+import me from "../images/me.jpg"
 
 function Me() {
   return(

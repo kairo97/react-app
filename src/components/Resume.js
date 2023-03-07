@@ -1,6 +1,7 @@
 
 import React from "react";
-import "./Resume.css"
+import "./Resume.css";
+import File from "./resume.pdf"
 
 function Resume() {
     return(
@@ -25,6 +26,9 @@ function Resume() {
                 <li>MongoDB/Mongoose</li>
                 <li>Variety of NPM packages</li>
             </ul>
+            <a href={File} download="resume" target="_blank" className="downloadLink">
+            <button id="download">Download Resume</button>
+            </a>
 
         </div>
     )
