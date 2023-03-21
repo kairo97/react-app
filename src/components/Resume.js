@@ -12,10 +12,11 @@ function Resume() {
             <ul id="projects">
                 <li>Steam Sales Tracker (Project team lead)</li>
                 <li>Comic Bookies (Project team lead)</li>
-                <li>gamerPad (currently in progress)</li>
+                <li>gamerPad (Github Admin)</li>
             </ul>
             <h3 id="Skills">Skills</h3>
             <ul id="skillList">
+                <li>Git/Github</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
