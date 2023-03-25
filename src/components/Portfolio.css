@@ -1,6 +1,6 @@
 #portfolio{
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: center;
     border: solid red 2px;
     
