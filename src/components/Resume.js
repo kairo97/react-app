@@ -27,7 +27,7 @@ function Resume() {
                 <li>MongoDB/Mongoose</li>
                 <li>Variety of NPM packages</li>
             </ul>
-            <a href={File} download="resume" target="_blank" className="downloadLink">
+            <a href={File} download="resume" target="_blank" rel="noreferrer"className="downloadLink">
             <button id="download">Download Resume</button>
             </a>
 
