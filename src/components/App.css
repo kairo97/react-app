@@ -2,6 +2,7 @@
 *{
     margin:0;
     padding:0;
+    background-color: #391463;
 }
 #topHeader{
     background-color: #7cc6fe;
@@ -21,7 +22,7 @@
 #navBar{
     background-color: #7cc6fe;
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-around;
     border-radius: 15px;;
 }
 #navBar a{

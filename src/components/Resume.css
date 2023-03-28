@@ -3,13 +3,16 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    border:solid red 2px;
 }
 #bootcamp{
     background-color: #93e5ab;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #dates{
     background-color: #93e5ab;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 #GP{
     margin:0 auto;
@@ -28,6 +31,7 @@
  li{
     list-style: none;
     background-color: #7cc6fe;
+    text-size-adjust:calc(50%) ;
 }
 ul{
     border-radius: 15px;
