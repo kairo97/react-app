@@ -4,12 +4,12 @@
     padding:0;
 }
 #topHeader{
-    background-color: cyan;
+    background-color: #7cc6fe;
     margin:0;
     border-radius: 15px;
 }
 #kai{
-    background-color: cyan;
+    background-color: #7cc6fe;
     text-align: center;
     border-radius: 15px;
 }
@@ -19,48 +19,49 @@
     border-radius: 100px;
 }
 #navBar{
-    background-color: cyan;
+    background-color: #7cc6fe;
     display: flex;
     justify-content:space-between ;
     border-radius: 15px;;
 }
 #navBar a{
-    background-color: cyan;
+    background-color: #7cc6fe;
     justify-content: space-around;
 }
 
 #aboutMe{
     text-align: center;
-    background-color: cyan;
+    background-color: #7cc6fe;
     border-radius: 15px;;
 }
 #myBio{
     padding:15px;
-    background-color: rgb(150, 150, 220);
+    background-color: #93e5ab;
 }
 #personal{
     padding:15px;
-    background-color: rgb(150, 150, 220);
+    background-color: #93e5ab;
 }
 #Portfolio{
     text-align: center;
-    background-color: cyan;
+    background-color: #7cc6fe;
     border-radius: 15px;
 }
 #Resume{
     text-align: center;
-    background-color: cyan;
+    background-color: #7cc6fe;
     border-radius: 15px;
 }
 #foot{
     width:100%;
+    position: absolute;
     text-align: center;
     margin:0;
     bottom:0;
     background-color: cyan;
 }
 #foot, h3, a, p{
-    background-color: cyan;
+    background-color: #7cc6fe;
 
 }
 #Git, #Gmail, #In{
@@ -68,8 +69,8 @@
     width:50px;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: cyan;
+    background-color: #7cc6fe;
 }
 .imglink{
-    background-color: cyan;
+    background-color: #7cc6fe;
 }

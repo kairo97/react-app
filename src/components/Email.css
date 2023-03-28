@@ -1,12 +1,12 @@
 #emailForm, #note, #click{
     text-align: center;
-    background-color: rgb(150, 150, 220);
+    background-color: #93e5ab;
     border-radius:15px;
 }
 #email-input{
     background-color: white;
 }
 #submit{
-    background-color: darkcyan;
+    background-color: #7cc6fe;
     border-radius: 5px;
 }

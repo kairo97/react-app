@@ -1,23 +1,43 @@
 #resume{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    border:solid red 2px;
 }
 #bootcamp{
-    background-color: rgb(150, 150, 220);
+    background-color: #93e5ab;
 }
 #dates{
-    background-color: rgb(150, 150, 220);
+    background-color: #93e5ab;
 }
 #GP{
-    background-color: rgb(150, 150, 220);
+    margin:0 auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px rgb(41, 40, 40);
+    background-color: #93e5ab;
+}
+#Skills{
+    background-color: #93e5ab;
+    margin: 0 auto;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px rgb(41, 40, 40);
+    margin-bottom: 5px;
 }
  li{
     list-style: none;
-    background-color: darkcyan;
+    background-color: #7cc6fe;
 }
 ul{
     border-radius: 15px;
-    background-color: darkcyan;
+    background-color: #7cc6fe;
 }
-#Skills, #download{
-    background-color: rgb(150, 150, 220);
+ #download{
+    background-color: #f4cbc6;
+    box-shadow: 5px 5px 5px rgb(41, 40, 40);
+    padding:5px;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
 }

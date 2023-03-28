@@ -10,9 +10,9 @@ function Portfolio() {
     
     return (
         <div id="portfolio">
-            <div className="accordianItem">
+            <div className={`accordianItem ${isActive ? "Steam" : ""}`}>
                 <h3 className='accordianTitle' onClick={()=> setIsActive("Steam")}>Steam Sales Tracker</h3>
-                {isActive === "Steam" && <div className='accodianContent'>
+                {isActive === "Steam" && <div className='accordianContent'>
                 <a href='https://kairo97.github.io/Steam-sale-tracker/' target="_blank" rel="noreferrer">
                 <img id="steamTracker" src={Steam}/>
                 </a>
