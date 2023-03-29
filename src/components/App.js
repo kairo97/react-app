@@ -39,13 +39,13 @@ function App() {
         {clickedContact && <Email/>}
       </div>
       <footer id="foot">
-        <a class="imglink" href="https://github.com/kairo97" target="_blank" rel="noreferrer">
+        <a className="imglink" href="https://github.com/kairo97" target="_blank" rel="noreferrer">
           <img id="Git"src={github}></img>
         </a>
-        <a class="imglink"href="mailto:kai.ropp@gmail.com" target="_blank" rel="noreferrer">
+        <a className="imglink"href="mailto:kai.ropp@gmail.com" target="_blank" rel="noreferrer">
           <img id="Gmail" src={gmail}></img>
         </a>
-        <a class="imglink"href="https://www.linkedin.com/in/kai-ropp-7476a1267/" target="_blank" rel="noreferrer">
+        <a className="imglink"href="https://www.linkedin.com/in/kai-ropp-7476a1267/" target="_blank" rel="noreferrer">
           <img id="In" src={LinkedIn}></img>
         </a>
       </footer>

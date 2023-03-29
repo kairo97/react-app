@@ -1,65 +1,30 @@
+
 #portfolio{
-    display:flex;
-    flex-direction:row;
+    display: grid;
     justify-content: center;
-    
+    margin: 5px;
+    border: solid red 1px;
 }
-.accordianItem{
-    display:flex;
-    flex-direction: column;
-    margin:0 auto;
+#portfolio * {
+    border: solid red 1px;
+}
+.projectList{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 40px;
+    background-color: #391463;
+}
+.projectItem{
+    justify-self: center;
     width: 100%;
- 
-}
-
-.accordianTitle{
-    margin:0 auto;
-    width: 70%;
-    min-width:110px;
-    cursor: pointer;
-}
-.accordianTitle:hover{
-    opacity: 65%;
-}
-.accordianContent{
-    display: flex;
+    min-width: 100px;
+    height: 100%;
+    min-height: 35px;
+    border-radius: 5px;
     justify-content: center;
-    overflow:hidden;
-    transition: all 0.5s ease-in-out;
 }
-.accordianContent.active{
-    height:auto;
-}
-a{
-    background-color:#93e5ab;
-}
-h3{
+.itemText{
     text-align: center;
-    border:solid black 1px;
-    width: 70%;
-    height:40px;
-    background-color: #93e5ab;
-    border-radius: 15px;
-}
-#RegEx,
-#Blog,
-#steamTracker{
-    display: flex;
-    justify-content: center;
-    height:300px;
-    width:500px;
-    background-color: none;
-    margin:0 auto;
-    transition: ease-in-out all 0.5s;
-}
-#steamTracker:hover, #Blog:hover, #RegEx:hover{
-border:solid green 3px;
-}
-
-#WIP{
-    height:300px;
-    width:500px;
-}
-#WIP:hover{
-    border:solid 3px green;
+    padding-top: 5px;
+    cursor:pointer;
 }
