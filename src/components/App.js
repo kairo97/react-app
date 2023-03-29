@@ -30,7 +30,7 @@ function App() {
       { clickedMe &&  <Me/> } 
        </div>
       <div id="Porfolio">
-         <Portfolio/>
+        {clickedPort && <Portfolio/>}
       </div>
       <div>
         {clickedResume && <Resume/>}

@@ -7,9 +7,7 @@
     margin: 5px;
     border: solid red 1px;
 }
-#portfolio * {
-    
-}
+
 .projectList{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -42,4 +40,9 @@
     width:100%;
     justify-self: center;
     align-self: flex-start;
+    opacity:60%;
+}
+.activePhoto:hover{
+border:2px chartreuse solid;
+opacity:100%;
 }
