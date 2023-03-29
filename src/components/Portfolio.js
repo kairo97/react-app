@@ -13,21 +13,26 @@ function Portfolio() {
       id: 0,
       photo: Steam,
       text: "Steam tracker",
+      link:"https://kairo97.github.io/Steam-sale-tracker/"
+      
     },
     {
-      id: 1,
-      photo: RegEx,
-      text: 'Regex Gist',
+        id: 1,
+        photo: RegEx,
+        text: 'Regex Gist',
+        link: "https://github.com/kairo97/regex-tutorial/blob/main/RegEx-email-validation.gist.md"
     },
     {
-      id: 2,
-      photo: Blog,
-      text: 'Blog Site',
+        id: 2,
+        photo: Blog,
+        text: 'Blog Site',
+        link: "https://thebestcodeblog.herokuapp.com/"
     },
     {
-      id: 3,
-      photo: gamerPad,
-      text: 'gamerPad)',
+        id: 3,
+        photo: gamerPad,
+        text: 'gamerPad)',
+        link: "https://gamerpad.herokuapp.com/"
     },
   ];
 
@@ -45,11 +50,14 @@ function Portfolio() {
         ))}
       </ul>
       {isActive && (
+       <a className='projectLink' href={projects.find((project)=> project.text === isActive).link}
+       target="_blank" rel="norefferer">
         <img
           className='activePhoto'
           src={projects.find((project) => project.text === isActive).photo}
           alt={isActive}
-        />
+          />
+          </a>
       )}
     </div>
   );
