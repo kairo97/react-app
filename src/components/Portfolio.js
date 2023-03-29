@@ -7,7 +7,19 @@ import gamerPad from "../images/gamerPad.png"
 function Portfolio() {
     const [isActive, setIsActive] = useState('');
     
-    
+    const projects = [{ photo: {Steam},
+                        text: "Steam Sale's tracker"
+                        },{
+                          photo:{RegEx},
+                          text: "Regex Email tutorial Gist"
+                         },{ 
+                            photo: {Blog},
+                            text: "Programming blog site"
+                          },{
+                            photo: {gamerPad},
+                            text: "gamerPad (game based social media site)"
+                        }
+                    ]
     return (
         <div id="portfolio">
             <div className={`accordianItem ${isActive ? "Steam" : ""}`}>
