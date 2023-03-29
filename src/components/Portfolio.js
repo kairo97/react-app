@@ -31,7 +31,7 @@ function Portfolio() {
     {
         id: 3,
         photo: gamerPad,
-        text: 'gamerPad)',
+        text: 'gamerPad',
         link: "https://gamerpad.herokuapp.com/"
     },
   ];
@@ -45,7 +45,7 @@ function Portfolio() {
       <ul className="projectList">
         {projects.map((project) => (
           <li className = "projectItem"key={project.id} onClick={() => handleItemClick(project.text)}>
-            <p className='itemText'>{project.text}</p>
+          {project.text}
           </li>
         ))}
       </ul>
