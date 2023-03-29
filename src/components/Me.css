@@ -1,4 +1,8 @@
 
+.bio{
+    display: grid;
+    grid-template-rows: 25% 10% 25% 25%;
+}
 #aboutMe{
     border-bottom:solid black 1px;
 }
@@ -8,9 +12,9 @@
     justify-content: flex-start;
 }
 #me{
-    position: absolute;  
     top: 50px;
     border-radius: 8px;
+    z-index: 1;
 }
 #myBio{
     margin-left: 70px;
