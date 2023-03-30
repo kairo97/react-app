@@ -1,10 +1,13 @@
 
 #portfolio{
     display: grid;
-    grid-template-rows: 5% 95%;
+    grid-template-columns: 5% 60% 5%;
+    height:60%;
     gap :15px;
     justify-content: center;
-    margin: 15px;
+}
+#portfolio * {
+    border: solid 1px red;
 }
 
 .projectList{
@@ -31,18 +34,28 @@
     box-shadow: 5px 5px 5px green;
 }
 
-
+.imageContainer{
+    display: grid;
+    grid-template-rows: 95% 5%;
+    height: 60%;
+    
+    align-items: center;
+    justify-content: center;
+}
 .projectLink{
+    margin-top: 80px;
     justify-self: center;
     align-self: baseline;
     border-radius: 15px;
+    aspect-ratio: 1/1;
     height:60%;
-    width:80%;
+    width:60%;
 }
 .activePhoto{
    border-radius: 15px;
     height: 100%;
     width:100%;
+    aspect-ratio: 1/1;
     justify-self: center;
     align-self: flex-start;
     opacity:60%;
@@ -52,4 +65,20 @@
 border:2px chartreuse solid;
 opacity:100%;
 box-shadow: 5px 5px 5px green;
+}
+.btnContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height:60%;
+    width:100%;
+    
+}
+.btn{
+    background-color: aqua;
+    padding:5px;
+    justify-self: center;
+}
+.backBtn{
+    
 }

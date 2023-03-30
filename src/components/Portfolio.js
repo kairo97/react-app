@@ -6,7 +6,7 @@ import RegEx from '../images/RegEx.png';
 import gamerPad from '../images/gamerPad.png';
 
 function Portfolio() {
-  const [isActive, setIsActive] = useState('');
+  const [isActive, setIsActive] = useState(0);
 
   const projects = [
     {
@@ -35,30 +35,38 @@ function Portfolio() {
         link: "https://gamerpad.herokuapp.com/"
     },
   ];
-
-  const handleItemClick = (projectText) => {
-    setIsActive(projectText);
+  const handleBackClick = () => {
+    setIsActive((isActive -1 + projects.length) % projects.length);
+  };
+  const handleNextClick = () => {
+    setIsActive((isActive + 1) % projects.length);
   };
 
   return (
     <div id='portfolio'>
-      <ul className="projectList">
-        {projects.map((project) => (
-          <li className = "projectItem"key={project.id} onClick={() => handleItemClick(project.text)}>
-          {project.text}
-          </li>
-        ))}
-      </ul>
-      {isActive && (
-       <a className='projectLink' href={projects.find((project)=> project.text === isActive).link}
-       target="_blank" rel="norefferer">
+      <div className='backBtnContainer btnContainer'>
+     <button onClick={handleBackClick} className='backBtn btn'> Back</button>
+      </div>
+      <div className='imageContainer'>
+      {isActive >= 0 && (
+        <a className='projectLink' href={projects.find((project)=> project.id === isActive).link}
+        target="_blank" rel="norefferer">
         <img
           className='activePhoto'
-          src={projects.find((project) => project.text === isActive).photo}
-          alt={isActive}
+          src={projects.find((project) => project.id === isActive).photo}
+          alt={projects.find((project) => project.id === isActive).text}
           />
           </a>
       )}
+      <div className='imageTitleContainer'>
+      {isActive >= 0 && (
+        <p className='imageTitle'>{projects.find((project) => project.id === isActive).text}</p>
+        )}
+        </div>
+        </div>
+      <div className='nextBtnContainer btnContainer'>
+        <button onClick={handleNextClick} className='nextBtn btn'> Next</button>
+      </div>
     </div>
   );
 }
