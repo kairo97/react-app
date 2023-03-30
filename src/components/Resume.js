@@ -8,12 +8,16 @@ function Resume() {
         <div id="resume">
             <h2 id="bootcamp">UW fullstack bootcamp</h2>
             <p id="dates">December 2022 - March 2023</p>
+            <div className="resumeList">
+                <div className="groupProjects">
             <h3 id="GP">Group Projects</h3>
             <ul id="projects">
                 <li>Steam Sales Tracker (Project team lead)</li>
                 <li>Comic Bookies (Project team lead)</li>
                 <li>gamerPad (Github Admin)</li>
             </ul>
+                </div>
+                <div className="SkillsList">
             <h3 id="Skills">Skills</h3>
             <ul id="skillList">
                 <li>Git/Github</li>
@@ -27,6 +31,8 @@ function Resume() {
                 <li>MongoDB/Mongoose</li>
                 <li>Variety of NPM packages</li>
             </ul>
+                </div>
+            </div>
             <a href={File} download="resume" target="_blank" rel="noreferrer"className="downloadLink">
             <button id="download">Download Resume</button>
             </a>

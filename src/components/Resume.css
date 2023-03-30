@@ -1,8 +1,15 @@
 #resume{
-    display:flex;
+
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.resumeList{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 1%;
+    justify-content: center
 }
 #bootcamp{
     background-color: #93e5ab;
@@ -18,23 +25,37 @@
     margin:0 auto;
     margin-top:5px;
     margin-bottom: 5px;
-    box-shadow: 5px 5px 5px rgb(41, 40, 40);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: solid black 1px;
+    box-shadow: 5px 5px 5px rgb(220, 217, 217);
     background-color: #93e5ab;
 }
 #Skills{
     background-color: #93e5ab;
+    border: solid black 1px;
+    border-radius: 5px;
     margin: 0 auto;
     margin-top: 5px;
-    box-shadow: 5px 5px 5px rgb(41, 40, 40);
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 5px rgb(226, 222, 222);
     margin-bottom: 5px;
 }
  li{
+    
     list-style: none;
     background-color: #7cc6fe;
+    border-radius: 5px;
+    margin: 3px;
+    border:solid 1px white;
+    box-shadow: 2px 2px 2px white;
+    
 }
 ul{
     border-radius: 15px;
-    background-color: #7cc6fe;
+    /* background-color: #7cc6fe; */
 }
  #download{
     background-color: #f4cbc6;
@@ -43,4 +64,12 @@ ul{
     margin: 5px;
     border-radius: 15px;
     cursor: pointer;
+}
+#download:hover{
+    background-color: #93e5ab;
+    border: solid 1px chartreuse;
+    box-shadow: 5px 5px 5px rgba(128, 255, 0, 0.863);
+}
+.downloadLink{
+    background-color:  #391463;
 }

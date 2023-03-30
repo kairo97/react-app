@@ -26,16 +26,16 @@ function App() {
         <a href="#Resume" onClick={() => setClickedResume(!clickedResume)}>Resume</a>
        </nav>
       </header>
-       <div>
+       <div className="aboutMe">
       { clickedMe &&  <Me/> } 
        </div>
       <div id="Porfolio">
         {clickedPort && <Portfolio/>}
       </div>
-      <div>
+      <div className="resumeSection">
         {clickedResume && <Resume/>}
       </div>
-      <div>
+      <div className="emailSection">
         {clickedContact && <Email/>}
       </div>
       <footer id="foot">
