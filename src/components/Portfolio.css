@@ -2,20 +2,13 @@
 #portfolio{
     display: grid;
     grid-template-columns: 5% 60% 5%;
-    height:60%;
+    height:100%;
     gap :15px;
     justify-content: center;
+    border: solid red 1px;
 }
 #portfolio * {
     border: solid 1px red;
-}
-
-.projectList{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 40px;
-    background-color: #391463;
-    justify-content: center;
 }
 .projectItem{
     justify-self: center;
@@ -37,25 +30,21 @@
 .imageContainer{
     display: grid;
     grid-template-rows: 95% 5%;
-    height: 60%;
-    
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
 .projectLink{
-    margin-top: 80px;
     justify-self: center;
     align-self: baseline;
     border-radius: 15px;
-    aspect-ratio: 1/1;
-    height:60%;
+    height:100%;
     width:60%;
 }
 .activePhoto{
    border-radius: 15px;
     height: 100%;
     width:100%;
-    aspect-ratio: 1/1;
     justify-self: center;
     align-self: flex-start;
     opacity:60%;
@@ -70,7 +59,7 @@ box-shadow: 5px 5px 5px green;
     display: grid;
     justify-content: center;
     align-items: center;
-    height:60%;
+    height:100%;
     width:100%;
     
 }
