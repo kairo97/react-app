@@ -67,15 +67,12 @@
     background-color: #7cc6fe;
     border-radius: 15px;
 }
-.emailSection{
-    border: solid red 2px;
-}
+
 #foot{
     width:100%;
-    position: absolute;
     text-align: center;
     margin:0;
-    bottom:0;
+    bottom:0 ;
     background-color: cyan;
     grid-row:6;
 }
