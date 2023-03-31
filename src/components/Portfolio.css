@@ -5,11 +5,11 @@
     height:100%;
     gap :15px;
     justify-content: center;
-    border: solid red 1px;
+    margin-top: 5px;
 }
-#portfolio * {
+/* #portfolio * {
     border: solid 1px red;
-}
+} */
 .projectItem{
     justify-self: center;
     text-align: center;
@@ -27,14 +27,8 @@
     box-shadow: 5px 5px 5px green;
 }
 
-.imageContainer{
-    display: grid;
-    grid-template-rows: 95% 5%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
 .projectLink{
+    grid-row:1;
     justify-self: center;
     align-self: baseline;
     border-radius: 15px;
@@ -42,7 +36,7 @@
     width:60%;
 }
 .activePhoto{
-   border-radius: 15px;
+    border-radius: 15px;
     height: 100%;
     width:100%;
     justify-self: center;
@@ -51,9 +45,33 @@
     box-shadow: 5px 5px 5px white;
 }
 .activePhoto:hover{
-border:2px chartreuse solid;
-opacity:100%;
-box-shadow: 5px 5px 5px green;
+    border:2px chartreuse solid;
+    opacity:100%;
+    box-shadow: 5px 5px 5px green;
+}
+.imageContainer{
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.imageTitleContainer{
+    position: absolute;
+    bottom: 0;
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+    width: 20%;
+    grid-row:2;
+    display: grid;
+    z-index:1;
+    text-align: center;
+}
+.imageTitle{
+    padding: 3px;
+    border-radius: 5px;
+
 }
 .btnContainer{
     display: grid;
@@ -66,8 +84,7 @@ box-shadow: 5px 5px 5px green;
 .btn{
     background-color: aqua;
     padding:5px;
+    border-radius: 5px;
     justify-self: center;
-}
-.backBtn{
-    
+    cursor: pointer;
 }

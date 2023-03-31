@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     background-color: #391463;
-    border:solid red 2px;
+    border:solid red 1px;
 }
 .App{
     display: grid;
@@ -18,7 +18,8 @@
     grid-row: 1;
 }
 .aboutMe{
-    grid-row:2
+    grid-row:2;
+    margin: 5px;
 }
 #kai{
     background-color: #7cc6fe;
@@ -63,6 +64,8 @@
     background-color: #7cc6fe;
     border-radius: 15px;
     height:100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 #Resume{
     text-align: center;
@@ -91,4 +94,6 @@
 }
 .imglink{
     background-color: #7cc6fe;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
