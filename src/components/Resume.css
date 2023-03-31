@@ -58,7 +58,7 @@ ul{
     /* background-color: #7cc6fe; */
 }
  #download{
-    background-color: #f4cbc6;
+    background-color: #00afb5;
     box-shadow: 5px 5px 5px rgb(41, 40, 40);
     padding:5px;
     margin: 5px;
@@ -71,5 +71,5 @@ ul{
     box-shadow: 5px 5px 5px rgba(128, 255, 0, 0.863);
 }
 .downloadLink{
-    background-color:  #391463;
+    background-color:  #00afb5;
 }
