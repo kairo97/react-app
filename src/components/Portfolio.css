@@ -89,8 +89,13 @@
     background-color: aqua;
     padding:5px;
     border-radius: 5px;
+    box-shadow: 4px 4px 5px rgba(255, 255, 255, 0.699);
     justify-self: center;
     cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+    box-shadow: 4px 4px 5px chartreuse;
 }
 .backBtnContainer{
     display: flex;
