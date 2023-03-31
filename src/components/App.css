@@ -8,7 +8,7 @@
 .App{
     display: grid;
     grid-template-rows: repeat(1, 6fr);
-    gap: 5px;
+    gap: 10px;
 }
 #topHeader{
     background-color: #7cc6fe;
@@ -64,8 +64,7 @@
     background-color: #7cc6fe;
     border-radius: 15px;
     height:100%;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    padding: 5px;
 }
 #Resume{
     text-align: center;
