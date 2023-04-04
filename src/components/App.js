@@ -11,32 +11,30 @@ import Me from "./Me"
 
 
 function App() {
-  const [clickedMe, setClickedMe] = useState(false);
-  const [clickedPort, setClickedPort] = useState(false);
-  const [clickedResume, setClickedResume] = useState(false);
-  const [clickedContact, setClickedContact] = useState(false)
+  const [clicked, setClicked] = useState("aboutMe");
+
   return (
     <div className="App">
       <header className="App-header" id="topHeader">
        <h1 id="kai"> Kai Ropp</h1>
        <nav id="navBar">
-        <a href="#aboutMe" onClick={() => setClickedMe(!clickedMe)}>About Me</a>
-         <a href="#Portfolio" onClick={() => setClickedPort(!clickedPort)}>Portfolio</a>
-        <a href="#foot" onClick={() => setClickedContact(!clickedContact)}>Contact</a>
-        <a href="#Resume" onClick={() => setClickedResume(!clickedResume)}>Resume</a>
+        <a href="#aboutMe" onClick={() => setClicked("aboutMe")}>About Me</a>
+         <a href="#Portfolio" onClick={() => setClicked("portfolio")}>Portfolio</a>
+        <a href="#foot" onClick={() => setClicked("contact")}>Contact</a>
+        <a href="#Resume" onClick={() => setClicked("resume")}>Resume</a>
        </nav>
       </header>
        <div className="aboutMe">
-      { clickedMe &&  <Me/> } 
+      { clicked === "aboutMe" &&  <Me/> } 
        </div>
       <div id="Porfolio">
-        {clickedPort && <Portfolio/>}
+        {clicked === "portfolio" && <Portfolio/>}
       </div>
       <div className="resumeSection">
-        {clickedResume && <Resume/>}
+        {clicked === "resume" && <Resume/>}
       </div>
       <div className="emailSection">
-        {clickedContact && <Email/>}
+        {clicked === "contact" && <Email/>}
       </div>
       <footer id="foot">
         <a className="imglink" href="https://github.com/kairo97" target="_blank" rel="noreferrer">
