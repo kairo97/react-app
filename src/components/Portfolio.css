@@ -9,9 +9,7 @@
     overflow-x: hidden;
     overflow-y:hidden;
 }
-/* #portfolio * {
-    border: solid 1px red;
-} */
+
 .projectItem{
     justify-self: center;
     text-align: center;
@@ -22,6 +20,7 @@
     background-color: none;
     cursor: pointer;
     box-shadow: 2px 2px 2px white;
+    transition: 1s;
 }
 .projectItem:hover{
     background-color: chartreuse;
@@ -45,6 +44,7 @@
     align-self: flex-start;
     opacity:60%;
     box-shadow: 5px 5px 5px white;
+    transition: 1s;
 }
 .activePhoto:hover{
     border:2px chartreuse solid;
@@ -93,9 +93,11 @@
     box-shadow: 4px 4px 5px rgba(255, 255, 255, 0.699);
     justify-self: center;
     cursor: pointer;
+    transition: 500ms;
 }
 .btn:hover{
     background-color: green;
+    font-size: 18px;
     box-shadow: 4px 4px 5px chartreuse;
 }
 .backBtnContainer{
